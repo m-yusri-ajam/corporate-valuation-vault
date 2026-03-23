@@ -1,7 +1,7 @@
 # Corporate Valuation Vault (FMVA®)
 
 ## 📌 Project Overview
-A collection of professional-grade valuation models covering fictional startups and real-world titans. Built with FMVA® standards to assess intrinsic value, capital structure, and investment risk.
+A collection of professional-grade valuation models covering fictional startups and real-world titans. Built with FMVA® standards to assess intrinsic value, capital structure, and investment risk. For advanced rr aaessment of these valuations using volatility and delta-hedging, see my [Quantitative Options Pricer](https://github.com/m-yusri-ajam/quantitative-options-pricer) repository.
 
 ## 🛠 Features
 * **3-Statement Modeling:** Fully integrated Income Statement, Balance Sheet, and Cash Flow.
