@@ -9,6 +9,7 @@ env/
 # Data & Logs (Crucial for FinOps/Valuation)
 data/*.csv
 data/*.xlsx
+data/.~*
 *.log
 
 # OS Junk
