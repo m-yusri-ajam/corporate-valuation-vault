@@ -51,9 +51,9 @@ def generate_financial_inputs(start_year, end_year, filename="FMVA_raw_data.csv"
     seeds = [
         120000.0, 25000.0, 55000.0, 30000.0,     # Current Assets
         650000.0, 210000.0, 45000.0,             # Long-Term Assets
-        48000.0, 32000.0,                        # Current Liab
+        48000.0, 32000.0,                        # Current Liabilities
         15000.0, 185000.0, 205000.0,             # Debt & Leases
-        28000.0, 12000.0,                        # Other Liab
+        28000.0, 12000.0,                        # Other Liabilities
         85000.0, 155000.0, -8000.0, 12000.0      # Equity (inc. NCI)
     ]
 
@@ -69,7 +69,7 @@ def generate_financial_inputs(start_year, end_year, filename="FMVA_raw_data.csv"
 
         data[year] = [
             round(curr_rev * 0.75, 2), round(curr_rev * 0.25, 2), # Revenue
-            round(-(curr_rev * 0.18), 2), round(-(curr_rev * 0.32), 2), # Ops
+            round(-(curr_rev * 0.18), 2), round(-(curr_rev * 0.32), 2), # OpEX
             hedge_fail, round(-(curr_rev * 0.09), 2),            # Maint
             -18000.0, -12000.0, -1500.0, impairment,            # D, A & I
             
