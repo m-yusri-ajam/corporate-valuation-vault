@@ -26,7 +26,7 @@ def generate_financial_inputs(start_year, end_year, filename="FMVA_raw_data.csv"
         "OCI: Cash Flow Hedges (Unrealized)", "OCI: Available-for-Sale Securities",
         
         # --- WORKING CAPITAL DRIVERS (DAYS) ---
-        "DSO", "DIO", "DPO", "Current Portion of Lease Liab. (Trigger)",
+        "Days Sales Ooutstanding", "Days Inventory Outstanding", "Days Payables Outstanding", "Current Portion of Lease Liab. (Trigger)",
         
         # --- BS: OPENING BALANCES (YEAR 0) ---
         "Op. Cash & Short-Term Investments", "Op. Restricted Cash",
@@ -57,7 +57,7 @@ def generate_financial_inputs(start_year, end_year, filename="FMVA_raw_data.csv"
         85000.0, 155000.0, -8000.0, 12000.0      # Equity (inc. NCI)
     ]
 
-    prev_rev = 350000.00 # Starting base for Revenue
+    prev_rev = 350000.27 # Starting base for Revenue
 
     for year in years:
         # Volatile Growth
